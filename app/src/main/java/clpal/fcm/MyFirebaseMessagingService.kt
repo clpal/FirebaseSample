@@ -9,13 +9,10 @@ import android.media.RingtoneManager
 import android.os.Build
 import android.widget.RemoteViews
 import androidx.core.app.NotificationCompat
-import clpal.realtimefirebasedata.MainActivity
 import clpal.realtimefirebasedata.R
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 
-const val channelId = "notification"
-val channelName = "clpal.realtimefirebasedata"
 
 class MyFirebaseMessagingService : FirebaseMessagingService() {
 
@@ -36,7 +33,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 // channel id ,channel name
         val soundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
         var builder: NotificationCompat.Builder =
-            NotificationCompat.Builder(applicationContext, channelId)
+            NotificationCompat.Builder(applicationContext, Utils.channelId)
                 .setSmallIcon(R.drawable.ic_stat_ic_notification)
                 .setAutoCancel(true).setVibrate(longArrayOf(1000, 1000, 1000, 1000))
                 .setOnlyAlertOnce(true).setSound(soundUri).setContentIntent(pendingIntent)
@@ -45,7 +42,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val notificationChannel =
-                NotificationChannel(channelId, channelName, NotificationManager.IMPORTANCE_HIGH)
+                NotificationChannel(Utils.channelId, Utils.channelName, NotificationManager.IMPORTANCE_HIGH)
             notificationManager.createNotificationChannel(notificationChannel)
         }
         notificationManager.notify(0, builder.build())
