@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "250563831291",
+    "firebase_url": "https://dynamic-amulet-123805-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dynamic-amulet-123805",
+    "storage_bucket": "dynamic-amulet-123805.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250563831291:android:199a07cce82a99425b975e",
+        "android_client_info": {
+          "package_name": "clpal.realtimefirebasedata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250563831291-gt3r8185rdletnc8npan5g817l7r0fm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "clpal.realtimefirebasedata",
+            "certificate_hash": "3cfe5b544acf21d254d62a14494d4503aed14efb"
+          }
+        },
+        {
+          "client_id": "250563831291-9t0ad03uur4clkm9q8c6n42mlqfgpld9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZP9s8QHaVXH4wgcTahkq0lIDtThl-87c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250563831291-9t0ad03uur4clkm9q8c6n42mlqfgpld9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
