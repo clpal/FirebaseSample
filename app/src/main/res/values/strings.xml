@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">OTP- Authentication</string>
+    <string name="app_name">SampleAppDiary</string>
+    <string name="phoneAuthentication">Phone Authentication</string>
+    <string name="fireBaseRealtimedatabas">Firebase Realtime Databae</string>
     <string name="heading">Mobile Register</string>
+    <string name="title">Title</string>
+    <string name="message"> This is Message</string>
     <string name="login_sign">Login/Sign</string>
     <string name="otp">OTP.</string>
     <string name="sent_otp">OTP sent</string>
@@ -10,12 +14,6 @@
     <string name="alpha">29.00</string>
     <string name="phone_no">Phone no.</string>
     <string name="title_activity_base_main">BaseMainActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
 </resources>

@@ -1,9 +1,7 @@
 package clpal.fcm
 
-import android.app.Activity
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import clpal.realtimefirebasedata.R
+import androidx.appcompat.app.AppCompatActivity
 import clpal.realtimefirebasedata.databinding.ActivityFcmPushNotificationBinding
 
 class FcmPushNotificationActivity : AppCompatActivity() {

@@ -11,7 +11,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.PhoneAuthProvider
-import clpal.realtimedatabase.CreateDataActivity
 
 class OtpActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
@@ -44,7 +43,7 @@ class OtpActivity : AppCompatActivity() {
 
                     val user = task.result?.user
 
-                    val intent = Intent(this, CreateDataActivity::class.java)
+                    val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
                     finish()
                 } else {
