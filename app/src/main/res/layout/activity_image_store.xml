@@ -6,7 +6,7 @@
     android:layout_margin="20dp"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context="clpal.firebaseStore.ImageStoreActivity">
+    tools:context=".storage.ImageStoreActivity">
 
     <Button
 

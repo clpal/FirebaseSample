@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "250563831291",
-    "firebase_url": "https://dynamic-amulet-123805-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "dynamic-amulet-123805",
-    "storage_bucket": "dynamic-amulet-123805.appspot.com"
+    "project_number": "887796884317",
+    "firebase_url": "https://khatabook-92499-default-rtdb.firebaseio.com",
+    "project_id": "khatabook-92499",
+    "storage_bucket": "khatabook-92499.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:250563831291:android:199a07cce82a99425b975e",
+        "mobilesdk_app_id": "1:887796884317:android:a4a1a7c7f3d9a228767eb4",
         "android_client_info": {
-          "package_name": "clpal.realtimefirebasedata"
+          "package_name": "com.clpal.khatabook"
         }
       },
       "oauth_client": [
         {
-          "client_id": "250563831291-gt3r8185rdletnc8npan5g817l7r0fm5.apps.googleusercontent.com",
+          "client_id": "887796884317-hbr3lgi47q2a1fr6p91l9u55k6mcp0ao.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "clpal.realtimefirebasedata",
+            "package_name": "com.clpal.khatabook",
             "certificate_hash": "3cfe5b544acf21d254d62a14494d4503aed14efb"
           }
         },
         {
-          "client_id": "250563831291-9t0ad03uur4clkm9q8c6n42mlqfgpld9.apps.googleusercontent.com",
+          "client_id": "887796884317-cd0mvd95kidecobcb3c57otd7vbl3jnu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAZP9s8QHaVXH4wgcTahkq0lIDtThl-87c"
+          "current_key": "AIzaSyBE-E8d5MAUul93qs0cCbVbPYUYO46S4Gs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "250563831291-9t0ad03uur4clkm9q8c6n42mlqfgpld9.apps.googleusercontent.com",
+              "client_id": "887796884317-cd0mvd95kidecobcb3c57otd7vbl3jnu.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

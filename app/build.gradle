@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "clpal.realtimefirebasedata"
+        applicationId "com.clpal.khatabook"
         minSdkVersion 28
         targetSdkVersion 30
         versionCode 1

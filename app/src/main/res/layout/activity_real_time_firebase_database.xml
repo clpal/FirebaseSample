@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="clpal.FirebaseCloudStore.FirebaseCloudActivity"
+    tools:context=".firestore.FirebaseCloudActivity"
     android:padding="20dp"
     android:layout_margin="20dp"
     android:orientation="vertical"
