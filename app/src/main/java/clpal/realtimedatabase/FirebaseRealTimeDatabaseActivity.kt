@@ -1,12 +1,8 @@
-package clpal.realtimefirebasedata
+package clpal.realtimedatabase
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import clpal.realtimedatabase.CreateDataActivity
-import clpal.realtimedatabase.DeleteDataActivity
-import clpal.realtimedatabase.ReadDataMainActivity
-import clpal.realtimedatabase.UpdateDataActivity
+import androidx.appcompat.app.AppCompatActivity
 import clpal.realtimefirebasedata.databinding.ActivityRealTimeFirebaseDatabaseBinding
 
 class FirebaseRealTimeDatabaseActivity

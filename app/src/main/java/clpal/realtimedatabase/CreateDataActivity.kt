@@ -7,8 +7,7 @@ import clpal.realtimefirebasedata.databinding.ActivitySaveDataBinding
 import com.google.firebase.database.*
 
 // https://www.youtube.com/playlist?list=PLQ9S01mirRdVX6qb0uDYUZUuZg1rgL1IV
-class CreateDataActivity
-     : AppCompatActivity() {
+class CreateDataActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySaveDataBinding
     private lateinit var database: DatabaseReference
     override fun onCreate(savedInstanceState: Bundle?) {

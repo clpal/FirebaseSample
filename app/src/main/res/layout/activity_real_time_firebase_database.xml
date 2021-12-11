@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".BaseMainActivity"
-    android:layout_margin="40dp"
-    android:orientation="vertical">
+    tools:context="clpal.FirebaseCloudStore.FirebaseCloudActivity"
+    android:padding="20dp"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    >
 
   <Button
       android:id="@+id/createData"

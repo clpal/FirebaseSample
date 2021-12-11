@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="clpal.FirebaseCloudStore.CreateCloudDataActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shape"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text=" CLOUD REGISTRATION"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/input"
+            android:hint="First Name"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/input"
+            android:hint="Last Name"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstName" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/input"
+            android:hint="Age"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lastName" />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/input"
+            android:hint="Username"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/age" />
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="500dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userName"/>
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="560dp"
+            android:textColor="@color/black"
+            android:text="The Journal for Studies in Humanities and Social Sciences (JSHSS) is a peer-reviewed publication of the Faculty of Humanities and Social Sciences at the University of Namibia. The interdisciplinary journal publishes research papers from the research agendas of the faculties and from international scholars in humanities and social sciences, and related areas. Specifically, the journal concentrates on researches and critical analyses of issues on the wide spectrum of sociology, psychology, language, rhetoric, linguistics, visual and performing arts, literature, politics, economics, philosophy, history, human sciences, geography, media and information studies, inter alia. Guidelines for contributors: Each article must be submitted with an abstract of not more than 250 words. The article must have clear sections throughout. All articles must be in Microsoft Word and one and a half spaced. Each article should be between 4000 and 7000 words long. Shorter or longer articles may be published depending on their strengths. Book reviews must be between 800 and 1200 words long. JSHSS uses the American Psychological Association (APA) referencing style. The author of an article is requested to include his/her biographical information in 60 words, e-mail address and the name of their institution. Authors should use the following e-mail addresses to submit their articles: jkangira@unam.na; jhunter@unam.na; nmlambo@unam.na; journalhss@unam.na Editorial: Chief Editor: Prof Jairos Kangira (University of Namibia) Deputy Chief Editor: Prof Johannes Hunter (University of Namibia) Assistant Editor: Dr Nelson Mlambo (University of Namibia). Members of the Editorial Board Prof Herman Beyer (University of Namibia) Prof Beatrice Ekanjume-Ilongo (National University of Lesotho) Prof Pedzisai Mashiri (University of Zimbabwe) Prof Sibusiso Moyo (Durban University of Technology) Prof Kingo Mchombu (International University of Management) Prof Cathrine Nengomasha (University of Namibia) Prof Cezar Ornatowski (San Diego University, USA) Prof Phillipe-Joseph Salazar (University of Cape Town) Prof Isaac Mapaure (University of Namibia) Prof Ian Rothman (University of North West, RSA) Dr Mildred Nkolola-Wakumelo (University of Zambia)."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerBtn"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

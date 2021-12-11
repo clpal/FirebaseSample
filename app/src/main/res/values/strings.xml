@@ -5,6 +5,7 @@
     <string name="heading">Mobile Register</string>
     <string name="title">Title</string>
     <string name="message"> This is Message</string>
+    <string name="firebasecloud">Firebase Cloud  Store</string>
     <string name="login_sign">Login/Sign</string>
     <string name="otp">OTP.</string>
     <string name="sent_otp">OTP sent</string>
@@ -14,6 +15,10 @@
     <string name="alpha">29.00</string>
     <string name="phone_no">Phone no.</string>
     <string name="title_activity_base_main">BaseMainActivity</string>
+    <string name="progurard_note">ProGuard makes the following impact on our project,
+It reduces the size of the application.
+It removes the unused classes and methods that contribute to the 64K method counts limit of an Android application.
+It makes the application difficult to reverse engineer by obfuscating the code.</string>
 
 
 </resources>

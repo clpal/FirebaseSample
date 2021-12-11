@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="clpal.realtimefirebasedata">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -12,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RealTimeFirebaseData">
-
+        <activity android:name="clpal.firebaseStore.GalleryActivity"></activity>
+        <activity android:name="proguard.ProguardMainActivity" />
         <!--
      Set custom default icon. This is used when no icon is set for incoming notification messages.
      See README(https://goo.gl/l4GJaQ) for more.
@@ -28,17 +30,37 @@
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />
 
-        <activity android:name="clpal.fcm.FcmPushNotificationActivity"
-            android:label="@string/message"/>
+        <activity
+            android:name="clpal.fcm.FcmPushNotificationActivity"
+            android:label="@string/message" />
         <activity android:name="clpal.realtimedatabase.CreateDataActivity" />
         <activity android:name="clpal.realtimedatabase.ReadDataMainActivity" />
         <activity android:name="clpal.realtimedatabase.UpdateDataActivity" />
         <activity android:name="clpal.realtimedatabase.DeleteDataActivity" />
+
+        <activity
+            android:name="clpal.FirebaseCloudStore.CreateCloudDataActivity"
+            android:label="@string/firebasecloud" />
+        <activity
+            android:name="clpal.FirebaseCloudStore.DeleteCloudDataActivity"
+            android:label="@string/firebasecloud" />
+        <activity
+            android:name="clpal.FirebaseCloudStore.UpdateCloudDataActivity"
+            android:label="@string/firebasecloud" />
+        <activity
+            android:name="clpal.FirebaseCloudStore.ReadCloudActivity"
+            android:label="@string/firebasecloud" />
+        <activity
+            android:name="clpal.FirebaseCloudStore.FirebaseCloudActivity"
+            android:label="@string/firebasecloud" />
+
         <activity android:name=".MainActivity" />
-        <activity android:name=".FirebaseRealTimeDatabaseActivity"
-            android:label="@string/fireBaseRealtimedatabas"/>
-        <activity android:name=".PhoneNumberActivity"
-            android:label="@string/phoneAuthentication"/>
+        <activity
+            android:name="clpal.realtimedatabase.FirebaseRealTimeDatabaseActivity"
+            android:label="@string/fireBaseRealtimedatabas" />
+        <activity
+            android:name=".PhoneNumberActivity"
+            android:label="@string/phoneAuthentication" />
         <activity android:name=".BaseMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
