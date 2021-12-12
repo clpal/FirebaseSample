@@ -13,8 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RealTimeFirebaseData">
-        <activity android:name="com.clpal.khatabook.storage.GalleryActivity"></activity>
-
+        <activity android:name=".crashlytics.CrashlyticsActivity"></activity>
+        <activity android:name=".crashlytics.CrashlyticsMainActivity" />
+        <activity android:name=".storage.GalleryActivity" />
         <!--
      Set custom default icon. This is used when no icon is set for incoming notification messages.
      See README(https://goo.gl/l4GJaQ) for more.
@@ -31,32 +32,30 @@
             android:resource="@color/colorAccent" />
 
         <activity
-            android:name="com.clpal.khatabook.pushnotification.FcmPushNotificationActivity"
+            android:name=".pushnotification.FcmPushNotificationActivity"
             android:label="@string/message" />
-        <activity android:name="com.clpal.khatabook.realtime.CreateDataActivity" />
-        <activity android:name="com.clpal.khatabook.realtime.ReadDataMainActivity" />
-        <activity android:name="com.clpal.khatabook.realtime.UpdateDataActivity" />
-        <activity android:name="com.clpal.khatabook.realtime.DeleteDataActivity" />
-
+        <activity android:name=".realtime.CreateDataActivity" />
+        <activity android:name=".realtime.ReadDataMainActivity" />
+        <activity android:name=".realtime.UpdateDataActivity" />
+        <activity android:name=".realtime.DeleteDataActivity" />
         <activity
-            android:name="com.clpal.khatabook.firestore.CreateCloudDataActivity"
+            android:name=".firestore.CreateCloudDataActivity"
             android:label="@string/firebasecloud" />
         <activity
-            android:name="com.clpal.khatabook.firestore.DeleteCloudDataActivity"
+            android:name=".firestore.DeleteCloudDataActivity"
             android:label="@string/firebasecloud" />
         <activity
-            android:name="com.clpal.khatabook.firestore.UpdateCloudDataActivity"
+            android:name=".firestore.UpdateCloudDataActivity"
             android:label="@string/firebasecloud" />
         <activity
-            android:name="com.clpal.khatabook.firestore.ReadCloudActivity"
+            android:name=".firestore.ReadCloudActivity"
             android:label="@string/firebasecloud" />
         <activity
-            android:name="com.clpal.khatabook.firestore.FirebaseCloudActivity"
+            android:name=".firestore.FirebaseCloudActivity"
             android:label="@string/firebasecloud" />
-
         <activity android:name=".authentication.MainActivity" />
         <activity
-            android:name="com.clpal.khatabook.realtime.FirebaseRealTimeDatabaseActivity"
+            android:name=".realtime.FirebaseRealTimeDatabaseActivity"
             android:label="@string/fireBaseRealtimedatabas" />
         <activity
             android:name=".authentication.PhoneAuthenticationActivity"
@@ -73,7 +72,7 @@
             android:theme="@style/Theme.RealTimeFirebaseData" />
 
         <service
-            android:name="com.clpal.khatabook.pushnotification.MyFirebaseMessagingService"
+            android:name=".pushnotification.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">SampleAppDiary</string>
+    <string name="app_name">Firebase Samples</string>
     <string name="phoneAuthentication">Phone Authentication</string>
-    <string name="fireBaseRealtimedatabas">Firebase Realtime Databae</string>
+    <string name="fireBaseRealtimedatabas">Firebase Realtime Database</string>
     <string name="heading">Mobile Register</string>
     <string name="title">Title</string>
     <string name="message"> This is Message</string>

@@ -3,6 +3,7 @@ package com.clpal.khatabook.authentication
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.clpal.khatabook.crashlytics.CrashlyticsActivity
 import com.clpal.khatabook.firestore.FirebaseCloudActivity
 import com.clpal.khatabook.databinding.ActivityBaseMainBinding
 import com.clpal.khatabook.storage.GalleryActivity
@@ -29,6 +30,10 @@ class BaseMainActivity : AppCompatActivity() {
         }
         binding.firebaseCloudStore.setOnClickListener {
             val intent=Intent(this, FirebaseCloudActivity::class.java)
+            startActivity(intent)
+        }
+        binding.crashbutton.setOnClickListener {
+            val intent=Intent(this, CrashlyticsActivity::class.java)
             startActivity(intent)
         }
     }
