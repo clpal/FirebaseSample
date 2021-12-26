@@ -1,4 +1,4 @@
-# FirebaseSamples
+# Please check in this repository all branch to see all samples .
 
 # Crashlytics
 button 
